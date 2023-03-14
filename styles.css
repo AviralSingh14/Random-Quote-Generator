@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body{
+  background : lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: "Montserrat";
+}
+
+#quote-box{
+  position: relative;
+  display: flex;
+/*   align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#text{
+  color:lightpink;
+  font-weight : 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size:24px;
+  max-width:24ch;
+  text-align: center;
+}
+
+#author{
+  font-weight : 200;
+  position: relative;
+  display : flex;
+  color: lightpink;
+  flex-direction:row;
+  justify-content: right;
+  padding:5px;
+}
+
+#buttons{
+  display: flex;
+  flex-direction:row;
+  padding-top:25px;
+  justify-content:space-between;
+  padding-right: 5px;
+}
+
+.button{
+  background: lightpink;
+  padding:10px;
+  width: fit-content;
+  border:none;
+  color: #fff;
+  text-decoration:none;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+#tweet-quote ion-icon{
+  color: white;
+  scale:1.5;
+  text-decoration: none;
+}
+
+.button:hover{
+  opacity:80%;
+}
